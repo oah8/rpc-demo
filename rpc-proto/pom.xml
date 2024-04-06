@@ -9,7 +9,14 @@
     </parent>
 
     <artifactId>rpc-proto</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>oah.project</groupId>
+            <artifactId>rpc-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

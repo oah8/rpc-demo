@@ -1,9 +1,8 @@
 package oah.project;
 
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
-
-class RpcCommonApplicationTests {
+public class RpcCommonApplicationTests {
 
 	@Test
 	void contextLoads() {

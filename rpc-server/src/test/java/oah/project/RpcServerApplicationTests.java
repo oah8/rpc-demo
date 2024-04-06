@@ -30,7 +30,7 @@ public class RpcServerApplicationTests {
 		Method method = ReflectionUtils.getPublicMethods(TestInterface.class)[0];
 		ServiceDescriptor sdp = ServiceDescriptor.from(TestInterface.class, method);
 		Request request = new Request();
-		request.setServiceDescriptor(sdp);
+		request.setService(sdp);
 		ServiceInstance sis = sm.lookup(request);
 		Assert.assertNotNull(sis);
 	}
